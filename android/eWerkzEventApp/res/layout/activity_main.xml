@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <Spinner
+        android:id="@+id/spn_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/event_prompt" />
+    
+    
+    <Button android:id="@+id/scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/scan"
+        android:layout_below="@id/spn_event" />
+	
+	<TextView
+	    android:id="@+id/scan_format"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/scan_button" />
+	<TextView
+	    android:id="@+id/scan_content"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/scan_format" />
+	
+	<TextView
+	    android:id="@+id/event_id"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/scan_content" />
+	
+	<TextView
+	    android:id="@+id/event_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/event_id" />
+	
+	<TextView
+	    android:id="@+id/table_no"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/event_name" />
+
+</RelativeLayout>

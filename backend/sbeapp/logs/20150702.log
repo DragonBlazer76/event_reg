@@ -1,0 +1,19 @@
+Event Registration : System Logs
+[2015-Jul-02 16:38:56 Singapore] APPI/INFO : AuditLog: guest/Update/Admin : You have successfully modified this guest
+[2015-Jul-02 17:01:03 Singapore] APPI/INFO : AuditLog: guest/Update/Admin : You have successfully modified this guest
+[2015-Jul-02 19:36:17 Singapore] APPI/INFO : AuditLog: guest/Update/Admin : You have successfully modified this guest
+[2015-Jul-02 19:36:40 Singapore] APPI/INFO : AuditLog: event/Insert/Admin : You have successfully created new event
+[2015-Jul-02 19:38:11 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 19:39:56 Singapore] APPI/INFO : AuditLog: event/Insert/Admin : You have successfully created new event
+[2015-Jul-02 19:40:08 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 19:40:43 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 19:44:55 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 19:45:27 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 19:46:04 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 19:46:11 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 19:46:33 Singapore] APPI/INFO : AuditLog: event/Delete/Admin : Event has been deleted successfully
+[2015-Jul-02 19:46:39 Singapore] APPI/INFO : AuditLog: event/Delete/Admin : Event has been deleted successfully
+[2015-Jul-02 19:46:50 Singapore] APPI/INFO : AuditLog: event/Insert/Admin : You have successfully created new event
+[2015-Jul-02 19:46:59 Singapore] APPI/INFO : AuditLog: guest/importGuest/Admin : Successfully imported $importOK records.
+[2015-Jul-02 20:40:47 Singapore] APPI/INFO : AuditLog: guest/Update/Admin : You have successfully modified this guest
+[2015-Jul-02 21:03:56 Singapore] APPI/INFO : AuditLog: report/csv/Admin : SuccessFully generated report 

@@ -1,0 +1,1 @@
+<h1><?php echo $title;?><small></small></h1>

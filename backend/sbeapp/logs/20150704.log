@@ -1,0 +1,7 @@
+Event Registration : System Logs
+[2015-Jul-04 12:05:22 Singapore] APPI/INFO : AuditLog: guest/Insert/Operator : New guest has been successfully created
+[2015-Jul-04 12:08:15 Singapore] APPI/INFO : AuditLog: event/Update/Operator : You have successfully updated an event
+[2015-Jul-04 12:09:16 Singapore] APPI/INFO : AuditLog: event/Update/Operator : You have successfully updated an event
+[2015-Jul-04 12:13:02 Singapore] APPI/INFO : AuditLog: report/csv/Operator : SuccessFully generated report 
+[2015-Jul-04 12:17:44 Singapore] APPI/INFO : AuditLog: guest/Update/customer : You have successfully modified this guest
+[2015-Jul-04 12:18:39 Singapore] APPI/INFO : AuditLog: report/csv/customer : SuccessFully generated report 

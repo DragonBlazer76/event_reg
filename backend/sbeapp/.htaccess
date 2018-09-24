@@ -1,0 +1,34 @@
+# BEGIN SBEAPP
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /sbeapp/
+
+#AddEncoding gzip .jsgz .cssgz .htmlgz .datagz
+#AddType application/x-javascript .jsgz
+#AddType text/css .cssgz
+#AddType text/html .htmlgz       
+#AddType text/plain .datagz
+
+# If client accepts compressed files 
+#RewriteCond %{HTTP:Accept-Encoding} gzip 
+# and if compressed file exists 
+#RewriteCond %{REQUEST_FILENAME}gz -f 
+# send .html.gz instead of .html 
+#RewriteRule ^(.+)\.(html|css|js|data)$ $1.$2gz [L] 
+#RewriteRule ^(.+)\.(css|js)$ $1.$2gz [L] 
+
+# we skip all files with .something
+  RewriteCond %{REQUEST_URI} \..+$
+  RewriteCond %{REQUEST_URI} !\.html$
+  RewriteRule .* - [L]
+
+  # we check if the .html version is here (caching)
+  RewriteRule ^$ index.html [QSA]
+  RewriteRule ^([^.]+)$ $1.html [QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+
+  # no, so we redirect to our front web controller
+  RewriteRule ^(.*)$ index.php [QSA,L]
+
+</IfModule>
+# END SAPP
